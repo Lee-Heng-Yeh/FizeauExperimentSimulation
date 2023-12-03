@@ -38,7 +38,7 @@ public class SettingsPanel extends JPanel {
 		setPreferredSize(new Dimension(250,120));
 		setBackground(Color.WHITE);
 
-		this.settingsLabel = new JLabel("USTAWIENIA PARAMETRÓW ANIMACJI");
+		this.settingsLabel = new JLabel("PARAMETERS SETTINGS");
 		c.gridx = 0;
 		c.gridy = 0;
 		c.gridwidth = 3;
@@ -46,7 +46,7 @@ public class SettingsPanel extends JPanel {
 		this.settingsLabel.setFont(this.header);
 		this.add(this.settingsLabel,c);
 
-		this.teethLabel = new JLabel("Liczba ząbków: ");
+		this.teethLabel = new JLabel("Number of teeth: ");
 		c.gridy = 1;
 		c.anchor=GridBagConstraints.LINE_START;
 		this.teethLabel.setFont(this.mainFont);
@@ -59,7 +59,7 @@ public class SettingsPanel extends JPanel {
 		this.nTeeth.setFont(this.mainFont);
 		this.add(this.nTeeth,c);
 
-		this.distanceLabel = new JLabel("Odległość od lustra [m] : ");
+		this.distanceLabel = new JLabel("Distance from the mirror [m] : ");
 		c.gridx = 0;
 		c.gridy = 2;
 		c.insets = new Insets(2,0,0,0);
@@ -74,7 +74,7 @@ public class SettingsPanel extends JPanel {
 		this.add(this.distance,c);
 
 
-		this.velSliderLabel = new JLabel("Prędkośc obrotu koła [rad/s] : ");
+		this.velSliderLabel = new JLabel("Wheel rotation speed [rad/s]: ");
 		c.gridx = 0;
 		c.gridy = 3;
 		c.anchor=GridBagConstraints.LINE_START;
