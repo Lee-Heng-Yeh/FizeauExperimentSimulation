@@ -24,7 +24,7 @@ public class SaveButtonListener implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		try {
 
-			frame.chooser.setDialogTitle("Wybierz miejsce gdzie zapisać plik.");
+			frame.chooser.setDialogTitle("Choose where to save the file.");
 
 			int result = frame.chooser.showSaveDialog(null);
 			if (result != JFileChooser.APPROVE_OPTION){
